@@ -3,9 +3,7 @@
 # Counter-Strike dedicated server remote admin tool
 <img alt="Windows" src="https://img.shields.io/badge/-Windows-0078D6?style=flat&logo=windows&logoColor=white"/> <img alt="NET" src="https://img.shields.io/badge/-Visual%20Basic-blue?style=flat&logo=.net&logoColor=white"/>
 
-This software is a **RCON** (**R**emote **CON**sole) tool that allows you to control and manage multiple **Counter-Strike 2** or other Source engine based game servers at same time using the TCP/IP-based **Source RCON protocol**. You can view more details of how the Source RCON protocol works in Valve's website:
-
-- https://developer.valvesoftware.com/wiki/Source_RCON_Protocol
+This software is a **RCON** (**R**emote **CON**sole) tool that allows you to control and manage multiple **Counter-Strike 2** or other Source engine based game servers at same time using the TCP/IP-based **Source RCON protocol**.
 
 In the past, a lot of RCON tools were published, maybe the most popular was **HLSW** but currently the project is abandoned and no updates are released. Some clones like **Source Admin Tool** tried to take over but most of them are outdated and doesn't support Counter-Strike 2 at 100%. 
 
@@ -22,7 +20,11 @@ Finally i coded my own RCON class and rebuilt the application from scratch witho
 ## The Source RCON protocol
 The **Source RCON Protocol** is a TCP/IP-based network communication protocol which allows to remotely send console commands to any Source-based game server. The most common use of the RCON protocol is to allow server owners to manage their game servers without direct access to the machine where the game server is running on.
 
-In order for commands to be accepted, the connection between client and server must first be authenticated using the server's **RCON password**, which can be set up using a special console variable. Normally, this variable is located inside **server.cfg** file
+In order for commands to be accepted, the connection between client and server must first be authenticated using the server's **RCON password**, which can be set up using a special console variable. Normally, this variable is located inside **server.cfg** file.
+
+ You can view more details of how the Source RCON protocol works in Valve's website:
+
+- **Source RCON Protocol:** https://developer.valvesoftware.com/wiki/Source_RCON_Protocol
 
 **rcon_password "123456"**
 
