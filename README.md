@@ -22,11 +22,11 @@ The **Source RCON Protocol** is a TCP/IP-based network communication protocol wh
 
 In order for commands to be accepted, the connection between client and server must first be authenticated using the server's **RCON password**, which can be set up using a special console variable. Normally, this variable is located inside **server.cfg** file.
 
+**rcon_password "123456"**
+
  You can view more details of how the Source RCON protocol works in Valve's website:
 
 - **Source RCON Protocol:** https://developer.valvesoftware.com/wiki/Source_RCON_Protocol
-
-**rcon_password "123456"**
 
 ## Main features
 - Visual servers list
