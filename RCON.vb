@@ -5,6 +5,15 @@ Imports System.Text
 
 Module RCON
 
+	'***********
+	'** USAGE **
+	'***********
+	'Add RCON.vb class to your project
+	'Set rcon_password cvar in your server.cfg file
+	'Call class SendRCONcommand sub in this way:
+	'SendRCONCommand("ServerIP", "port", "RCON_Password", "Command")
+	'Example: SendRCONCommand("123.321.213.312", "27015", "mypassword", "say Hello!")
+
     Public A2S_INFO_Request() As Byte = {&HFF, &HFF, &HFF, &HFF, &H54, &H53, &H6F, &H75, &H72, &H63, &H65, &H20, &H45, &H6E, &H67, &H69, &H6E, &H65, &H20, &H51, &H75, &H65, &H72, &H79, &H0}
     Public A2S_PLAYER_Request() As Byte = {&HFF, &HFF, &HFF, &HFF, &H55, &HFF, &HFF, &HFF, &HFF}
 
