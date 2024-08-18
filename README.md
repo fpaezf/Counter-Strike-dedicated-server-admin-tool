@@ -62,7 +62,7 @@ Stop asking for full source code, i will not publish it. You can use my class an
 I know my code is a spagetti bowl, i'm not a professional developer, feel free to fix it and if you want, share your corrections with me to keep it updated and working.
 
 - **If you found a bug or need any modification:** https://github.com/fpaezf/Counter-Strike-dedicated-server-admin-tool/issues
-- 
+
 ## Screenshots
 ![1](https://github.com/user-attachments/assets/7948f26c-f243-415e-b85d-4b89c150d0bb)
 ![2](https://github.com/user-attachments/assets/5b8452c4-13ce-4fa9-bb98-e2e88facb7d1)
